@@ -197,7 +197,7 @@ h3{
     opacity: 0;
 }
 
-.card:hover .card__heart{
+.card__heart:hover{
     background-color: red;
 }
 
