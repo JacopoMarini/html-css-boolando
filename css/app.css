@@ -8,6 +8,19 @@ img{
     max-width: 100%;
 }
 
+/* ----- HEADER ----- */
+
+header{
+    background-color: #ff6900;
+    height: 70px;
+}
+
+.header__list{
+    vertical-align: middle;
+}
+
+/* ----- MISC ----- */
+
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -43,4 +56,34 @@ img{
 
 .barrato{
     color: black;
+}
+
+/* ----- FOOTER ----- */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 70px;
+    margin-top: 30px;
+}
+
+/* ----- LISTE, ANCORE, TITOLI ----- */
+
+ul, li, menu{
+    padding-top: 5px;
+    display: inline-block;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+h3{
+    padding-top: 10px;
+    font-family: sans-serif;
 }
