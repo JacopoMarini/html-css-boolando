@@ -194,7 +194,8 @@ h3{
 
 .card__heart:hover{
     background-color: red;
-    transition: all 500ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
+
 
 
