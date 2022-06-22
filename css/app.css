@@ -19,6 +19,7 @@ img{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 .nav{
@@ -69,7 +70,7 @@ img{
 /* ----- CARDS ----- */
 
 .card{
-    display: inline;
+    position: relative;
 }
 
 .description__brand{
@@ -143,3 +144,61 @@ h3{
     padding-top: 10px;
     font-family: sans-serif;
 }
+
+/* ----- SOPRA LE CARD ----- */
+
+.card__heart{
+    background-color: white;
+    width: 28px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 10;
+}
+
+.card__red{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    z-index: 5;
+    padding: 2px;
+}
+
+.card__green{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    padding: 2px;
+}
+
+#left{
+    left: 0;
+}
+
+.image__change{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.card::after{
+    content: '';
+    display: block;
+    position: absolute;
+    transition: all 500ms ease-in-out;
+}
+
+.card:hover .image__change{
+    opacity: 0;
+}
+
+.card:hover .card__heart{
+    background-color: red;
+}
+
+
