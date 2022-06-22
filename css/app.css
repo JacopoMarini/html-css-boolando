@@ -1,46 +1,50 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    max-width: 100%;
-    height: 70px;
-    background-color: #cc5400;
-}
-
-.container{
-    max-width: 1390px;
-    margin: 0 auto;
+    box-sizing: 0;
 }
 
 img{
     max-width: 100%;
 }
 
-/* ----- HEADER ----- */
-
-.main-header{
-    padding: 15px 0;
-}
-
-ul, li, menu{
-    display: inline-block;
-}
-
-ul{
-    padding-left: 260px;
-}
-
-.header-menu{
-    display: inline-block;
+.container{
+    max-width: 900px;
     margin: 0 auto;
 }
 
-.header-logo{
-    max-width: 140px;
-    height: 40px;
-    display: inline-block;
-    vertical-align: middle;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: calc((100% - 30px) / 3);
+    padding: 5px;
+}
+
+/* ----- CARDS ----- */
+
+p{
+    font-family: sans-serif;
+}
+
+.card{
+    border: 2px solid red;
+}
+
+.description__brand{
+    font-size: 14px;
+}
+
+.description__fit{
+
+}
+
+.description__red{
+
+}
+
+.description__bar{
+
 }
