@@ -25,26 +25,22 @@ img{
 
 /* ----- CARDS ----- */
 
-p{
-    font-family: sans-serif;
-}
-
 .card{
-    border: 2px solid red;
+    display: inline;
 }
 
 .description__brand{
+    font-family: sans-serif;
     font-size: 14px;
-}
-
-.description__fit{
-
+    color: lightgrey;
 }
 
 .description__red{
-
+    font-family: sans-serif;
+    font-size: 14px;
+    color: red;
 }
 
-.description__bar{
-
+#description__bar{
+    color: black;
 }
